@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favoutite movie</title>
+    <style>
+        body {
+            background: #000;
+            color: orange;
+            min-height: 100vh;
+            margin: 0;
+            position: relative;
+            overflow-x: hidden;
+        }
+        .background-img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: 0;
+            opacity: 0.3;
+        }
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 700px;
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+            margin: 0 auto;
+        }
+        img:not(.background-img):not(.normal-size) {
+            display: block;
+            margin: 1.5rem auto;
+            width: 250px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+        .normal-size {
+            width: auto !important;
+            height: auto !important;
+            max-width: 100%;
+            max-height: 500px;
+            margin: 1.5rem auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <img class="background-img" src="c:\Users\Gebruiker\Downloads\Kamer Taj.png" alt="Achtergrond">
+    <div class="center-content">
+        <h1>My favorite movie</h1>
+        <h1>Welkom op mijn website. Hier ga ik vertellen over mijn favoriete film; Doctor strange (2016).</h1>
+        <img src="c:\Users\Gebruiker\Downloads\poster.avif" alt="Doctor strange poster" width="250" height="400">
+        <h2>Een korte introductie over wie Doctor strange is.</h2>
+        <p>Doctor strange, beter bekend als Doctor Stephen Strange, was een ordinaire man die in een ziekenhuis werkte in New york. Hij was een van de beste van zijn tijd en bedacht zelfs een eigen techniek die de naam kreeg. Op een avond dat hij naar een conventie wil gaan voor doctoren krijgt hij een telefoontje van een collega over een van zijn patienten. Terwijl dat hij deze aan het bekijken is en aan het overleggen is terwijl hij aan het rijden is krijgt hij een aanrijding en beland in het ziekenhuis met zware verwondingen en zal nooit meer zijn vingers stil kunnen houden en zal zijn carriere als chirurg op moeten geven. Maar Stephen is geen opgever en gaat op zoek naar alternatieve geneesmiddelen en komt terecht bij Kamer Taj, een plek in Azie waar mensen genezen van de meest rare dingen en Stephen reist er naar toe om zijn vingers te genezen, maar in plaats van terug te keren naar zijn oude leven als chirurg gaat hij een ander pad op dan verwacht en wordt een sorcerer van de mystic arts. Na een heftig gevecht met Mordo en Dormammu wordt de beginneling Strange Sorcerer supreme gekroond na de aarde te hebben gered van zekere doem.</p>
+    <img class="normal-size" src="c:\Users\Gebruiker\Downloads\Actie.webp" alt="Doctor strange actie">
+    <video controls style="margin:2rem auto; display:block; max-width:100%; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.5);">
+        <source src="c:\Users\Gebruiker\Downloads\trailer.mp4" type="video/mp4">
+
+    </video>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+</body>
+</html>
